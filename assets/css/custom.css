@@ -5,3 +5,7 @@
 .ft_logo{
     max-width: 90px;
 }
+
+.cs-munu_dropdown_toggle{
+    display: none;
+}
