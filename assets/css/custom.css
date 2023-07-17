@@ -1,0 +1,7 @@
+.cs-nav_list > li.dropdown_arrow_none > a::after{
+    display: none !important;
+}
+
+.ft_logo{
+    max-width: 90px;
+}
