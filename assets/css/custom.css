@@ -27,3 +27,7 @@
     width: 8px !important;
     height: 8px !important;
 }
+
+.cs-down_btn{
+    border-color: #ffbf00 !important;
+}
