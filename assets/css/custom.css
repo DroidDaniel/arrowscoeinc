@@ -43,6 +43,13 @@ video{
     margin-top: 700px !important;
   }
 
+
+  @media screen and (max-width:600px) {
+    .cs-funfact_wrap.cs-type1{
+      margin-top: 225px !important;
+    }
+  }
+
   .about-page  .cs-funfact_wrap.cs-type1{
     margin-top: 0 !important;
   }
