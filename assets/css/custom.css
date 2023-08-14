@@ -27,3 +27,28 @@
     width: 8px !important;
     height: 8px !important;
 }
+
+video{
+    width: 100%;
+}
+
+  .video-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+  }
+
+  .cs-funfact_wrap.cs-type1{
+    margin-top: 700px !important;
+  }
+
+  .about-page  .cs-funfact_wrap.cs-type1{
+    margin-top: 0 !important;
+  }
+
+  .cs-hero.cs-style1{
+    padding: 0 !important;
+    height: 100% !important;
+    min-height: 100% !important;
+  }
