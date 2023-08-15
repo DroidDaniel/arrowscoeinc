@@ -35,12 +35,12 @@ video{
   .video-wrapper {
     width: 100%;
     overflow: hidden;
-    position: absolute;
+    position: relative;
     top: 0;
   }
 
   .cs-funfact_wrap.cs-type1{
-    margin-top: 700px !important;
+    margin-top: 0 !important;
   }
 
 
@@ -59,3 +59,47 @@ video{
     height: 100% !important;
     min-height: 100% !important;
   }
+
+
+   .video-wrapper .cs-hero_social_wrap, .cs-fullscreen_swiper_wrap .cs-hero_social_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(180deg) translateY(85%);
+    transform: rotate(180deg) translateY(85%);
+    right: 45px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1199px){
+  .video-wrapper .cs-hero_social_wrap, .cs-fullscreen_swiper_wrap .cs-hero_social_wrap {
+    display: none;
+}
+}
+
+.video-wrapper .cs-hero_social_title, .cs-fullscreen_swiper_wrap .cs-hero_social_title {
+  position: relative;
+  padding-bottom: 35px;
+  white-space: nowrap;
+}
+
+.video-wrapper .cs-hero_social_links, .cs-fullscreen_swiper_wrap .cs-hero_social_links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+.video-wrapper .cs-hero_social_links li, .cs-fullscreen_swiper_wrap .cs-hero_social_links li {
+  position: relative;
+  padding-bottom: 32px;
+  white-space: nowrap;
+}
