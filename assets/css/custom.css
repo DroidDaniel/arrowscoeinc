@@ -46,7 +46,7 @@ video{
 
   @media screen and (max-width:600px) {
     .cs-funfact_wrap.cs-type1{
-      margin-top: 225px !important;
+      margin-top: 25px !important;
     }
   }
 
@@ -126,4 +126,41 @@ video{
   color: #fff;
   border-radius: 10px;
   background-color: #ffbf00;
+}
+
+/* .you-frame{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.cs-portfolio_bg{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; 
+} */
+
+.desktop-video{
+  display: block;
+}
+
+.mob-video{
+  display: none;
+}
+
+@media screen and (max-width: 600px){
+.desktop-video{
+  display: none;
+}
+
+.mob-video{
+  display: block;
+}
+
 }
