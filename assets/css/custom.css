@@ -182,3 +182,15 @@ video{
 .cs-hobble{
   text-align: center;
 }
+
+.since_text{
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffbf00;
+}
+
+@media screen and (max-width:992px) {
+  .cs-card.cs-style1 .cs-card_info span{
+    display: none;
+  }
+}

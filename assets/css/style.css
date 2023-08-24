@@ -1093,9 +1093,7 @@ label {
   left: 0;
   top: 0;
 }
-.cs-rating .cs-rating_bg {
-  opacity: 0.2;
-}
+
 .cs-rating .cs-rating_percentage {
   width: 50%;
 }
