@@ -165,3 +165,20 @@ video{
 }
 
 }
+
+.cs-portfolio.cs-style1.cs-type1:hover .cs-portfolio_info_bg{
+  display: none !important;
+}
+
+.cs-portfolio_info{
+  display: none;
+}
+
+.gif_img{
+  max-width: 150px;
+  height: 150px;
+}
+
+.cs-hobble{
+  text-align: center;
+}
