@@ -105,7 +105,8 @@ video{
 }
 
 .cs-card_title{
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 24px;
   text-align: center;
   margin: 5px 0 0 0;
 }
